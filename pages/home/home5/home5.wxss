@@ -1,0 +1,88 @@
+/* pages/home5/home5.wxss */
+.box{
+  background-color: white;
+  height: 100vh;
+}
+.title{
+  font-size: 50rpx;
+  margin-left: 20rpx;
+}
+
+.txt{
+  text-align: center;
+}
+
+.intro{
+  font-size: 30rpx;
+  display: block;
+  line-height: 50rpx;
+}
+.down{
+   text-align: center;
+}
+.back{
+  display: flex;
+  justify-content: center;
+}
+.img{
+  height: 40rpx;
+  width: 40rpx;
+}
+.imgs{
+  height: 250rpx;
+  width: 660rpx;
+}
+.img1{
+  height: 26rpx;
+  width: 26rpx;
+}
+.about{
+  margin-top: 7rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  margin-bottom: 28rpx;
+  display: flex;
+  justify-content: center;
+}
+.line{
+  border-bottom: 3rpx  solid #000000;
+  width: 600rpx;
+  margin-left: 75rpx;
+  margin-bottom: 6rpx;
+}
+.end{
+  /* margin: 24rpx 50rpx; */
+  margin-left: 50rpx;
+  margin-bottom: 18rpx;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.a_txt{
+  font-size:25rpx;
+}
+.a_txts{
+  margin-left: 10rpx;
+  color: #FF8040;
+  font-size: 25rpx;
+}
+.t_txt{
+  color:#000000;
+  font-size: 20rpx;
+}
+.e_txt{
+  margin-left: 8rpx;
+  font-size: 30rpx;
+  color: #5B5B5B;
+}
+.f_txt{
+  font-size: 30rpx;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  color: #5B5B5B;
+}

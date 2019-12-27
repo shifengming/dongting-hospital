@@ -1,0 +1,50 @@
+/* pages/phone/phone.wxss */
+.box{
+  background-color: #FFFFFF;
+}
+.img{
+  width: 400rpx;
+  height: 160rpx;
+}
+.top{
+  display: flex;
+  justify-content: center;
+}
+.text{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+.text1{
+  font-size: 30rpx;
+  margin: 25rpx 25rpx;
+}
+#myMap {
+  width: 680rpx;
+}
+.map{
+  margin-top: 15rpx;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 750rpx;
+  height: 110rpx;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.f_title {
+  font-size: 36rpx;
+  color: aqua;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.f_img {
+  width: 70rpx;
+  height: 50rpx;
+  margin-right: 14rpx;
+}

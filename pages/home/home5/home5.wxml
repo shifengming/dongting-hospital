@@ -1,0 +1,66 @@
+<!--pages/home5/home5.wxml-->
+<view class='box'>
+
+    <text class='title'>养老院</text>
+
+  <view class='txt'>
+    <text class='intro'>东山亭社区养老院游园活动</text>
+    <text class='intro'>东山亭社区养老院</text>
+    <text class='intro'>东山亭社区养老院游园活动</text>
+    <text class='intro'>东山亭社区养老院</text>
+
+  </view>
+
+  <view class='down'>
+    <image src='../../images/triangle.png' class="img" />
+  </view>
+
+  <view class='txt'>
+    <text class='intro'>东山亭社区养老院游园活动</text>
+    <text class='intro'>东山亭社区养老院</text>
+    <text class='intro'>东山亭社区养老院游园活动</text>
+    <text class='intro'>东山亭社区养老院</text>
+    <text class='intro'>东山亭社区养老院游园活动</text>
+  </view>
+
+  <view class='down'>
+    <image src='../../images/triangle.png' class="img" />
+  </view>
+
+  <view class='back'>
+    <image src="../../images/home3.jpg" class="imgs" />
+  </view>
+
+  <view class='about'>
+    <image src='../../images/garden.png' class='img' />
+    <text class='a_txt'>ABOUT</text>
+    <text class='a_txts'>DONGTNGYIYUAN</text>
+  </view>
+
+  <view class='text'>
+    <text class='t_txt'>一个健康、美好、温暖的公众号</text>
+  </view>
+
+  <view class='line'></view>
+
+  <view class='end'>
+    <view class='e_text'>
+      <image src='../../images/diamond.png' class='img1' />
+      <text class='e_txt'>素材来源：某某社区</text>
+    </view>
+    <view class='e_text'>
+      <image src='../../images/diamond.png' class='img1' />
+      <text class='e_txt'>商务合作：东亭医院</text>
+    </view>
+    <view class='e_text'>
+      <image src='../../images/diamond.png' class='img1' />
+      <text class='e_txt'>联系电话：15012369876</text>
+    </view>
+  </view>
+
+  <view class='footer'>
+    <text class='f_txt'>阅读  985</text>
+    <text class='f_txt'>评论  985</text>
+    <text class='f_txt'>转发  985</text>
+  </view>
+</view>

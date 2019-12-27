@@ -1,0 +1,48 @@
+<!--pages/phone/phone.wxml-->
+<view class='box'>
+
+  <view class='top'>
+    <image src="../images/title1.png" class='img' />
+  </view>
+  <view class='text'>
+    <text class='txt1'>武汉东亭医院有限公司于2014年01月</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>08日成立。公司经营范围包括：治疗科目：内科、</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>外科、妇产科：妇科专业、儿科、口腔科</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>、急诊医学科、医学</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>检验科、医学影像科：x线诊断专业：超声诊断专</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>业；心电诊断专业、中医科、中西</text>
+  </view>
+  <view class='text'>
+    <text class='txt1'>医结合科等</text>
+  </view>
+
+  <view class='map'>
+    <map id="myMap" longitude="116.313972" latitude="39.980014" scale='16' subkey="5AGBZ-AGCKK-LE5JN-A5JPE-TW2M7-MIFGU" polyline="{{polyline}}" markers='{{markers}}'>
+    </map>
+  </view>
+
+  <view class='text1'>
+    <text>医院地址：欢乐大道杨家西湾东亭新嘉园小区5号楼</text>
+  </view>
+  <view class='text1'>
+    <text>联系电话：087-88858069</text>
+  </view>
+  <view class='text1'>
+    <text>官方网站：https://www.whpushikang.cn/</text>
+  </view>
+
+  <view class='footer'>
+    <image src="/pages/images/hospital.png" class='f_img' />
+    <text class='f_title'>武汉东亭医院</text>
+  </view>
+</view>

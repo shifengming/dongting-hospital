@@ -1,0 +1,87 @@
+/* pages/newsdetial3/detial3.wxss */
+.box{
+  background-color: white;
+}
+.txt1{
+  font-size: 50rpx;
+  margin-left: 20rpx;
+}
+.text{
+  text-align: left;
+}
+.text1{
+  text-align: center;
+}
+.text2{
+  text-align: center;
+}
+.txt2{
+  font-size: 30rpx;
+}
+.txt3{
+  font-size: 30rpx;
+}
+.text3{
+  display: flex;
+  justify-content: center;
+}
+.text4{
+  display: flex;
+  justify-content: center;
+}
+.img{
+  height: 40rpx;
+  width: 40rpx;
+}
+.imgs{
+  height: 250rpx;
+  width: 520rpx;
+}
+.img1{
+  height: 26rpx;
+  width: 26rpx;
+}
+.text5{
+  display: flex;
+  justify-content: center;
+  margin-top: 25rpx;
+}
+.text6{
+  margin-bottom: 35rpx;
+  display: flex;
+  justify-content: center;
+}
+.text7{
+  border-bottom: 3rpx  solid #000000;
+  width: 600rpx;
+  margin-left: 80rpx;
+}
+.text8{
+  font-size: 30rpx;
+  margin: 24rpx 50rpx;
+  color: #5B5B5B;
+}
+.text10{
+  display: flex;
+  justify-content: space-between;
+}
+.txt4{
+  font-size:25rpx;
+}
+.txt5{
+  margin-left: 10rpx;
+  color: #FF8040;
+  font-size: 25rpx;
+}
+.txt6{
+  color:#000000;
+  font-size: 20rpx;
+}
+.txt7{
+  margin-left: 8rpx;
+}
+.txt8{
+  font-size: 30rpx;
+  margin: 15rpx  40rpx;
+  color: #5B5B5B;
+}

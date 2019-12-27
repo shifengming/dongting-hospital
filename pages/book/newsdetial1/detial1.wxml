@@ -1,0 +1,89 @@
+<!--pages/newsdetial1/detial1.wxml-->
+<view class='box'>
+
+<view class='text'>
+<text class='txt1'>{{obj.title}}</text>
+</view>
+
+<view class='text1'>
+<text class='txt2'>东山亭社区养老院游园活动</text>
+</view>
+
+<view class='text2'>
+<text class='txt3'>东山亭社区养老院</text>
+</view>
+
+<view class='text1'>
+<text class='txt2'>东山亭社区养老院游园活动</text>
+</view>
+
+<view class='text2'>
+<text class='txt3'>东山亭社区养老院</text>
+</view>
+
+<view class='text3'>
+<image src='../../images/triangle.png' class="img"/>
+</view>
+
+<view class='text1'>
+<text class='txt2'>东山亭社区养老院游园活动</text>
+</view>
+
+
+<view class='text2'>
+<text class='txt3'>东山亭社区养老院</text>
+</view>
+
+<view class='text1'>
+<text class='txt2'>东山亭社区养老院游园活动</text>
+</view>
+
+<view class='text2'>
+<text class='txt3'>东山亭社区养老院</text>
+</view>
+
+<view class='text1'>
+<text class='txt2'>东山亭社区养老院游园活动</text>
+</view>
+
+<view class='text3'>
+<image src='../../images/triangle.png' class="img"/>
+</view>
+
+<view class='text4'>
+<image src='{{img}}' class='imgs'/>
+</view>
+
+<view class='text5'>
+<image src='../../images/garden.png' class='img'/>
+<text class='txt4'>ABOUT</text>
+<text class='txt5'>DONGTNGYIYUAN</text>
+</view>
+
+<view class='text6'>
+<text class='txt6'>一个健康、美好、温暖的公众号</text>
+</view>
+
+<view class='text7'></view>
+
+<view class='text8'>
+<view class='text9'>
+<image src='../../images/diamond.png' class='img1'/>
+<text class='txt7'>素材来源：某某社区</text>
+</view>
+<view class='text9'>
+<image src='../../images/diamond.png' class='img1'/>
+<text class='txt7'>商务合作：东亭医院</text>
+</view>
+<view class='text9'>
+<image src='../../images/diamond.png' class='img1'/>
+<text class='txt7'>联系电话：15012369876</text>
+</view>
+</view>
+
+<view class='text10'>
+<text class='txt8'>阅读  985</text>
+<text class='txt8'>评论  985</text>
+<text class='txt8'>转发  985</text>
+</view>
+</view>

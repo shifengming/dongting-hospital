@@ -1,0 +1,86 @@
+/* pages/doctor1/doctor1.wxss */
+.doc_detail {
+  /* padding: 20rpx; */
+}
+.top{
+  background-color: #FFFFFF;
+}
+.img {
+  width: 390rpx;
+  height: 140rpx;
+  padding: 20rpx;
+}
+
+.doc_top {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+  
+}
+
+.avator {
+  width: 180rpx;
+  height: 260rpx;
+}
+
+.doc_right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.doc_name {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.doc_po {
+  font-size: 30rpx;
+  font-weight: 500;
+  margin-right: 25rpx;
+}
+
+.doc_posi {
+  display: flex;
+  align-items: center;
+}
+
+.img_star {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.doc_desc {
+  padding: 20rpx;
+}
+
+.desc {
+  font-size: 34rpx;
+}
+
+.footer {
+  width: 750rpx;
+  height: 140rpx;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_title {
+  font-size: 36rpx;
+  color: aqua;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.f_img {
+  width: 70rpx;
+  height: 50rpx;
+  margin-right: 14rpx;
+}

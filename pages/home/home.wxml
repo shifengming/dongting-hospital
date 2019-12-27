@@ -1,0 +1,69 @@
+<!--pages/home/home.wxml-->
+<view class='swipercontent'>
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  current="{{swiperCurrent}}" bindchange="swiperChange"
+>
+  <block wx:for="{{imgUrls}}" wx:key="1">
+    <swiper-item>
+      <image bindtap='click_swiper' src="{{item}}" data-current='{{swiperCurrent}}' class="slide-image" width="355" height="150" />
+    </swiper-item>swiperChange
+  </block>
+</swiper>
+<!-- 自定义Dots -->
+ <view class="dots">
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+    </block>
+  </view>
+</view>
+<view class='other'>
+  <view class='box'>
+    <view class='top'>
+      <text class='txt1'>看病不用愁</text>
+      <text class='txt2'>在线预约</text>
+      <text class='txt3'>名师问诊</text>
+    </view>
+
+    <view class='middle'>
+      <image src="../images/home2.png" class="img" />
+      <button open-type="contact" hover-class="none" bindcontact="handleContact">
+      <view class='txt4'>
+        <view class='text'>
+          <text class='txt1'>在线客服</text>
+          <text class='txt5'>7*12小时</text>
+        </view>
+        <text class='txt6'>在线答疑 健康咨询 预约问诊</text>
+      </view>
+      </button> 
+    </view>
+
+    <view class='footer'>
+      <view class='left'>
+        <image src="../images/home7.png" class="img" />
+        <navigator url="./home4/home4" hover-class="none">
+        <view class='texts'>
+          <text class='txt1'>预约问诊</text>
+          <text class='txt7'>预约名医一对一问诊</text>
+        </view>
+        </navigator>
+      </view>
+      <view class='right'>
+        <image src="../images/home8.png" class="img" />
+        <navigator open-type="switchTab" url="../../pages/doctor/doctor" hover-class="none">
+        <view class='texts'>
+          <text class='txt1'>专家团队</text>
+          <text class='txt7'>专家名医在线</text>
+        </view>
+        </navigator>
+      </view>
+    </view>
+    <navigator url="./home5/home5" hover-class="none">
+    <image src="../images/home3.jpg" class="imgs" />
+    </navigator>
+  </view>
+  </view>
+

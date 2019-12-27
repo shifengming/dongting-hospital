@@ -1,0 +1,23 @@
+<!--pages/doctor/doctor.wxml-->
+<view class='containers'>
+
+<!-- <view class='top'>
+<image src="../images/doctor2.jpg" class="img"/>
+<text class='txt1'>专家团队</text>
+</view> -->
+
+<view class='middle'>
+<view class='text'>
+<view class='box' wx:for="{{arr}}" wx:key="index">
+<image src="{{item.img}}" class='left'/>
+<navigator url="./doctor1/doctor1?img={{item.img}}&title={{item.title}}&desc={{item.desc}}&position={{item.position}}" hover-class="none">
+<view class='t_middle'>
+<text class='txt2'>{{item.title}}({{item.position}})</text>
+<text class='txt3'>{{item.desc}}</text>
+</view>
+</navigator>
+<!-- <image src="../images/telephone.png" class="right" bindtap='call' data-phone="{{item.phone}}"/> -->
+</view>
+</view>
+</view>
+</view>

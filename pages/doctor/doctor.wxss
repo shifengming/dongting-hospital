@@ -1,0 +1,66 @@
+/* pages/doctor/doctor.wxss */
+/* .top{
+  background-color: #f4f4f4;
+  width: 750rpx;
+  height: 280rpx;
+} */
+.middle{
+  width: 750rpx;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+/* .img{
+  height: 200rpx;
+  width: 710rpx;
+  margin: 5rpx 20rpx 0 20rpx;
+  border-radius: 6rpx;
+} */
+
+/* .txt1{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 50rpx;
+  border-bottom: 2rpx solid black;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+} */
+.text{
+  width: 690rpx;
+  height: 180rpx;
+  align-items: center;
+  border-bottom: 2rpx solid #f4f4f4;
+}
+.box{
+  width: 690rpx;
+  height: 160rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.left{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 6rpx;
+}
+.right{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.t_middle{
+  display: flex;
+  flex-direction: column;
+  width: 440rpx;
+  height: 100rpx;
+  justify-content: space-around;
+  margin-left: 35rpx;
+}
+.txt2{
+  font-size: 24rpx;
+}
+.txt3{
+  font-size: 16rpx;
+}

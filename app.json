@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/home1/home1",
+    "pages/home/home2/home2",
+    "pages/home/home3/home3",
+    "pages/home/home4/home4",
+    "pages/home/home5/home5",
+    "pages/doctor/doctor",
+    "pages/doctor/doctor1/doctor1",
+    "pages/book/book",
+    "pages/book/newsdetial1/detial1",
+    "pages/book/newsdetial2/detial2",
+    "pages/book/newsdetial3/detial3",
+    "pages/book/newsdetial4/detial4",
+    "pages/phone/phone",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "武汉东亭医院",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home1.png"
+      },
+      {
+        "pagePath": "pages/doctor/doctor",
+        "text": "找医生",
+        "iconPath": "pages/images/doctor.png",
+        "selectedIconPath": "pages/images/doctor1.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "药理知识",
+        "iconPath": "pages/images/book.png",
+        "selectedIconPath": "pages/images/book1.png"
+      },
+      {
+        "pagePath": "pages/phone/phone",
+        "text": "来院显示",
+        "iconPath": "pages/images/phone.png",
+        "selectedIconPath": "pages/images/phone1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/mine.png",
+        "selectedIconPath": "pages/images/mine1.png"
+      }
+    ]
+  }
+}
